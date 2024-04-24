@@ -1,13 +1,12 @@
 ## Rockafellian Relaxation Method (RRM)
 
-See `scripts/mnist_adv.sh` for an example of how to execute `train.py` for on-prem HPC. The program can be executed 
-stand-alone as well. 
+See scripts/mnist_rrm.sh for an example of how to execute train.py for slurm HPC. The program can be executed stand-alone as well.
 
-A decription of program arguments can be found in the argument parsing section under `"__main__"` in `train.py`. 
+A decription of program arguments can be found in the argument parsing section under "__main__" in train.py.
 
-Neural network and pyomo model instantiation can be found in `model.py`. 
+Neural network and pyomo models can be found in model.py.
 
-Email `eric.eckstrand@nps.edu` for any questions or comments.
+Email eric.eckstrand@nps.edu for any questions or comments.
 
 ## Python Package Dependencies
 `tensorflow numpy matplotlib pandas pyomo scikit-learn`
