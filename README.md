@@ -2,7 +2,7 @@
 
 See `scripts/mnist_rrm.sh` for an example of how to execute `train.py` for slurm HPC. The program can be executed stand-alone as well.
 
-A decription of program arguments can be found in the argument parsing section under `"__main__"` in `train.py`.
+A description of program arguments can be found in the argument parsing section under `"__main__"` in `train.py`.
 
 Neural network and pyomo models can be found in `model.py`.
 
@@ -34,7 +34,8 @@ python ./train.py \
 --u_opt \
 ```
 
-Replace the `--solver` and `--solver_exe` arguments with the appropriate pyomo solver. 
+Replace the `--solver` and `--solver_exe` arguments with the appropriate pyomo solver. Replace `--results_dir` with a location on your system where program artifacts (i.e. learning curves, u-value 
+pickle files) will be saved.
 
 ## Cite
 ```
